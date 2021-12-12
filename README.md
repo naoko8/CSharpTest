@@ -1,5 +1,18 @@
 # CSharpTest
-{Your Name Here}
+Nina Zhong
+
+# Instructions for compiling project from terminal  
+From /src/com/linkedlist directory
+**Run commands**
+1. javac -d "classes" -classpath "classes" Main.java input/ReadFile.java functionalities/LinkedList.java functionalities/Node.java
+2. java -classpath "classes" "com.linkedlist.Main"
+
+Write the file Path, which is located under the project directory. This is because usually reading file from external directory creates additional problems.
+
+**Example** 
+/Users/nina/IdeaProjects/CSharpTest/src/com/linkedlist/input.txt
+
+Now you can see the project output in terminal as well. 
 
 # Purpose
 To quickly test a candidate’s ability to program in C#. This exercise will require a basic understanding of the linked list data structure, algorithms, recursion, and/or control loops in C#
